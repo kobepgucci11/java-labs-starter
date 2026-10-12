@@ -8,6 +8,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 class CourseToolkitTest {
 
     @Test
+    void zeroIsEven() {
+        assertTrue(CourseToolkit.isEven(0));
+    }
+
+    @Test
     void returnsTrueForEvenNumber() {
         boolean result = CourseToolkit.isEven(8);
 
